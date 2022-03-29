@@ -1,19 +1,4 @@
 
-body{
-    background-color: #A2D2FF;
-    backface-visibility: hidden;
-    margin: 0rem;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: 100%;
-    
-    
-}
-header{
-    background-color: #F05454;
-    height: 9rem;
-}
 .encabezado{
     display: flex;
     font-size: 1.5rem;
@@ -37,24 +22,12 @@ ul{
     justify-content: space-evenly;
     list-style: none; 
 }
-a:link, a:visited,  a:hover, a:active 
-{
-    color: #000000;
-    text-decoration: none;
-    
-}
 .subtitulos{
     text-align: center;
     font-size: 1.5rem;
 }
 section{
-    margin: 2rem;
-}
-.cajasdestinos{
-    height: 18rem;
-    width: 15rem;
-    margin: 1rem;
-    background-color: rgba(255, 255, 255, 0.40)
+    margin: 5rem 2rem 2rem 2rem;
 }
 .imgdestinos{
     height: 10rem;
@@ -70,13 +43,7 @@ section{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #6998AB;
-    padding-left: 2rem;
-}
+
 .footertext{
     display: flex;
     
@@ -98,74 +65,23 @@ footer{
 
 
 
-.formSoporte {
-    width: 400px;
-    background-color: rgba(63, 92, 134, 0.70);
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-
-  }
   
   .formSoporte h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 1.4rem;
+    margin-bottom: 1.25rem;
   }
   
-  .controls {
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
-  }
   
   .formSoporte p {
-    height: 40px;
+    height: 2.5em;
     text-align: center;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 1rem;
+    line-height: 2.5rem;
   }
   
-  .formSoporte a {
-    color: white;
-    text-decoration: none;
-  }
+
   
-  .formSoporte a:hover {
-    color: white;
-    text-decoration: underline;
-  }
   
-  .formSoporte .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-  }
-  .Duda{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
-    height: 6rem;
-  }
   .nosotros{
       display: flex;
       flex-direction: row;
@@ -198,6 +114,26 @@ footer{
     display: grid;
     grid-template-areas: "header header"
                          "form publicida"
-                         "footer footer";
 
 }
+body{
+    background:url("../img/fondoOriginal.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.diapositiva1{
+    background: url("../img/Noruega.jpeg");
+    background-attachment: fixed;
+    background-position: 100%;
+}
+.tamño{
+    height: ;
+    width: 12.5rem;
+}
+.centro{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+<<

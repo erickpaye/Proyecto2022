@@ -1,0 +1,60 @@
+@import'mapcol';
+.carruseltam{
+    height: 20rem;
+    background-color: map-get($map:$Colors , $key:"negro" );
+}
+.formSoporte .botons {
+    width: 100%;
+    background: map-get($map:$Colors,  $key:"rosita" );
+    border: none;
+    padding: 0.25rem;
+    color: map-get($map:$Colors, $key:"blanco" );
+    margin: 1;
+    font-size: 1;
+}
+.formSoporte a:hover {
+    color: map-get($map:$Colors, $key:"blanco" );
+    text-decoration: underline;
+}
+
+.Prueba{
+    color:map-get($map:$Colors, $key:"blanco" );
+  }
+  .fondotransp{
+    background:map-get($map:$Colors , $key:"colorR" );
+}
+.controls {
+    width: 100%;
+    background:map-get($map:$Colors, $key:"color2" );
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid map-get($map:$Colors, $key:"azul" );
+    font-family: 'calibri';
+    font-size: 1rem;
+    color: map-get($map:$Colors, $key:"blanco" );
+  }
+  .formSoporte {
+    width: 25rem;
+    background-color: map-get($map:$Colors , $key:"color3" );
+    padding: 1.9;
+    margin: auto;
+    margin-top: 6.25rem;
+    border-radius: 0.25rem;
+    font-family: 'calibri';
+    color: map-get($map:$Colors , $key:"blanco" );
+    box-shadow: 0.5rem 0.5rem 3rem map-get($map:$Colors, $key:"negro" );
+
+  }
+  .cajasdestinos{
+    height: 18rem;
+    width: 15rem;
+    margin: 1rem;
+    background-color: map-get($map:$Colors , $key:"colorR" );
+  }
+  a:link, a:visited,  a:hover, a:active 
+{
+    color: map-get($map:$Colors , $key:"blanco" );
+    text-decoration: none;
+    
+}

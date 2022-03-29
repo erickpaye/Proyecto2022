@@ -1,0 +1,65 @@
+.carruseltam {
+  height: 20rem;
+  background-color: black;
+}
+
+.formSoporte .botons {
+  width: 100%;
+  background: #FD5DA8;
+  border: none;
+  padding: 0.25rem;
+  color: white;
+  margin: 1;
+  font-size: 1;
+}
+
+.formSoporte a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.Prueba {
+  color: white;
+}
+
+.fondotransp {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 1rem;
+  color: white;
+}
+
+.formSoporte {
+  width: 25rem;
+  background-color: rgba(63, 92, 134, 0.7);
+  padding: 1.9;
+  margin: auto;
+  margin-top: 6.25rem;
+  border-radius: 0.25rem;
+  font-family: 'calibri';
+  color: white;
+  -webkit-box-shadow: 0.5rem 0.5rem 3rem black;
+          box-shadow: 0.5rem 0.5rem 3rem black;
+}
+
+.cajasdestinos {
+  height: 18rem;
+  width: 15rem;
+  margin: 1rem;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
